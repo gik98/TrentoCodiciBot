@@ -1,0 +1,17 @@
+{
+  "apps" : [{
+    "name"        : "OpenMove-CodiciBot",
+    "script"      : "./index.js",
+    "args"        : "",
+    "watch"       : false,
+    "instances"   : 1,
+    "exec_mode"   : "cluster",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "error_file"  : "error.log",
+    "out_file"    : "output.log",
+    "combine_logs": true,
+    "env"         : {
+      "NODE_ENV": "production"
+   }
+  }]
+}
