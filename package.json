@@ -6,10 +6,10 @@
   "scripts": {
     "start": "node ./index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://gitlab.fabrisg.eu/gik98/OpenMove-CodiciBot.git"
-  },
   "author": "Giacomo Fabris",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "mongoose": "^4.13.5",
+    "telegraf": "^3.16.4"
+  }
 }
